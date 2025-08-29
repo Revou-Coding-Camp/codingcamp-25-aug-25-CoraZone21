@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company Profile — Profil Kami</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS khusus profil -->
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">MyCompany</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navMain" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="profil.html">Profil Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-secondary text-white">
+      <div class="container py-5">
+        <h1 class="display-6 fw-bold mb-2">Profil Kami</h1>
+        <p class="mb-0 text-white-50">Kenali perusahaan kami lebih dekat.</p>
+      </div>
+    </section>
+
+    <main class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Tentang Perusahaan</h3>
+              <p class="text-secondary mb-0">
+                Kami adalah perusahaan teknologi yang berfokus pada solusi
+                digital modern untuk UMKM hingga enterprise. Kami mengutamakan
+                kualitas, keamanan, dan kecepatan delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Visi</h3>
+              <p class="text-secondary mb-0">
+                Menjadi penyedia solusi digital terdepan di Asia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Misi</h3>
+              <ul class="text-secondary mb-0 ps-3">
+                <li>Memberi dampak bisnis lewat teknologi.</li>
+                <li>Menjaga kualitas & keamanan.</li>
+                <li>Support cepat dan ramah.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a class="btn btn-primary" href="index.html#kontak"
+          >Kirim Pesan kepada Kami</a
+        >
+      </div>
+    </main>
+
+    <footer class="py-4 bg-dark text-center text-white-50">
+      © <span id="year"></span> MyCompany • All rights reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS sama seperti beranda -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
