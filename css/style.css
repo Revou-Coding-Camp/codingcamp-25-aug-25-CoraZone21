@@ -1,0 +1,36 @@
+/* Offset untuk navbar fixed-top */
+body {
+  padding-top: 72px;
+}
+
+/* HERO beranda */
+.hero-section {
+  background: radial-gradient(
+      1000px 400px at 10% -10%,
+      rgba(13, 110, 253, 0.25),
+      transparent
+    ),
+    #0b132b;
+}
+.banner-img {
+  object-fit: cover;
+  width: 100%;
+  height: 360px;
+}
+@media (min-width: 992px) {
+  .banner-img {
+    height: 420px;
+  }
+}
+
+/* Headquarter */
+.hq-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* Kecil-kecil */
+.rounded-4 {
+  border-radius: 1rem;
+}
